@@ -4,7 +4,13 @@
   "description": "CSI 2520 Homework 5",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "ejs": "^1.0.0"
+    
   },
   "repository": {
     "type": "git",
@@ -15,9 +21,5 @@
   "bugs": {
     "url": "https://github.com/imkeichan/KeijiRoemmich_HW5_CSI2520__fs2021/issues"
   },
-  "homepage": "https://github.com/imkeichan/KeijiRoemmich_HW5_CSI2520__fs2021#readme",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/imkeichan/KeijiRoemmich_HW5_CSI2520__fs2021#readme"
 }

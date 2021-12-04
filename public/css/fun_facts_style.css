@@ -1,0 +1,77 @@
+*{
+    background-color: cornsilk;
+    margin: auto;
+    padding: 2px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(59, 182, 115);
+    background-color: blanchedalmond;
+}
+#Favbook{
+    color: rgb(174, 0, 255);
+}
+ul{
+    list-style: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    font-size: 30px;
+  
+}
+li{
+    margin: 5px;
+    padding: 4px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.637);
+    float: left;
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+li:last-child{
+    float: right;
+    border-right: none;
+    border-left: 1px groove;
+}
+h2{
+    padding: 10px;
+    margin-top: 50px;
+    text-align: justify;
+}
+div{
+    padding: 15px;
+    
+}
+figure{
+    width: 50%;
+    float: left;
+    
+}
+
+#akira_ex{
+    font-size: large;
+}
+.music{
+    float: left;
+    
+}
+#fav_music{
+    color: cadetblue;
+}
+#tenetmovie{
+    float: left;
+}
+#tenet_ex{
+    font-size: large;
+}
+footer{
+    float: left;
+}
+
+
+

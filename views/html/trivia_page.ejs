@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Keiji Roemmich</title>
+    <link rel="shortcut icon" href="/public/Media/undercover-jun-takahashi (1).jpg" type="image/jfif">
+    <script src="https://kit.fontawesome.com/381512a771.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/public/css/trivia_style.css">
+</head>
+<header>
+    <h1>
+        This is a Trivia by Keiji Roemmich
+    </h1>
+    <nav>
+        <u1>
+            <li><a href="/views/index.html">Home page</a> </li>
+            <li><a href="/views/html/resume.html">My Resume</a></li>
+            <li><a href="/views/html/fun_facts_page.html">Fun Facts about me!</a></li>
+            <li><a href="/views/html/trivia_page.html">Trivia Page</a></li> <br>
+        </u1>
+    </nav>
+</header>
+<body>
+  <div>
+  <h2>No.1 "The highest mountain on planet earth is?"</h2>
+<p>A: Mt.Fuji  B: Mt.Everest  C:K2 D:Lhotse</p>
+<input type="radio" name="question1"> A
+<input type="radio" name="question1" id="correct1"> B
+<input type="radio" name="question1"> C
+<input type="radio" name="question1"> D
+</div>
+
+<div>
+  <h2>No.2 "'Cynophobia' is the fear of what?"</h2>
+  <p>A: Spiders  B: Clowns  C: The Dark  D:Dogs</p>
+<input type="radio" name="question2"> A
+<input type="radio" name="question2"> B
+<input type="radio" name="question2"> C
+<input type="radio" name="question2" id="correct2"> D
+</div>
+
+<div>
+  <h2>No:3 "Which country invented Ice Cream?"</h2>
+  <p>A: Japan  B: Germany  C: China  D: France</p>
+<input type="radio" name="question3"> A
+<input type="radio" name="question3"> B
+<input type="radio" name="question3" id="correct3"> C
+<input type="radio" name="question3"> D
+</div>
+<div>
+  <h2>No:4 "Which actor appeared in films 'Face Off' and 'Ghost Rider'?"</h2>
+  <p>A: Nicholas Cage  B: Jon Travolta  C:John Cusac  D: Leonardo Decaprio</p>
+<input type="radio" name="question4" id="correct4"> A
+<input type="radio" name="question4"> B
+<input type="radio" name="question4"> C
+<input type="radio" name="question4"> D
+</div>
+<div>
+  <h2>No:5 "In Japan, which fast food brand is a traditional Christmas Dinner?" </h2>
+  <p>A: McDonald's  B: KFC  C: Domino's  D: Burger King</p>
+<input type="radio" name="question5"> A
+<input type="radio" name="question5" id="correct5"> B
+<input type="radio" name="question5"> C
+<input type="radio" name="question5"> D <br>
+</div>
+<div>
+<input type="submit" name="submit" value="See My Score" onclick="result()" id="button">
+<script type="text/javascript">
+  function result(){
+    var score=0;
+    if(document.getElementById('correct1').checked){
+      score++;
+    }
+    if(document.getElementById('correct2').checked){
+      score++;
+    }
+    if(document.getElementById('correct3').checked){
+      score++;
+    }
+    if(document.getElementById('correct4').checked){
+      score++;
+    }
+    if(document.getElementById('correct5').checked){
+      score++;
+    }
+    document.write("Your Score is " +score)
+    
+  }
+
+</script>
+</body>
+<footer>
+    &copy; 2021 Keiji Roemmich <br><i class="far fa-envelope"></i>: keiji0627@live.com <br>
+    <a href="https://www.instagram.com/imkeichan/"><i class="fab fa-instagram fa-lg"></i></a>
+
+</footer>
+</html>
